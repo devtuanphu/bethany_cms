@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_share_projects",
+  "info": {
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle1": {
+      "type": "text"
+    },
+    "subTitle2": {
+      "type": "text"
+    },
+    "subTitle3": {
+      "type": "text"
+    },
+    "subTitle4": {
+      "type": "text"
+    },
+    "year": {
+      "type": "text"
+    },
+    "studio": {
+      "type": "text"
+    },
+    "role": {
+      "type": "text"
+    },
+    "responsibilities": {
+      "type": "text"
+    },
+    "credits": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "groupMedia": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "position": {
+      "type": "integer"
+    },
+    "isHeightSpecial": {
+      "type": "boolean",
+      "default": false
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "row_projects",
+  "info": {
+    "singularName": "row-project",
+    "pluralName": "row-projects",
+    "displayName": "rowProject"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "columns": {
+      "type": "integer"
+    },
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.project"
+    }
+  }
+}
