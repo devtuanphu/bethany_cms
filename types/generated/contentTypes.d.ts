@@ -365,6 +365,7 @@ export interface AdminUser extends Schema.CollectionType {
 export interface ApiRowProjectRowProject extends Schema.CollectionType {
   collectionName: 'row_projects';
   info: {
+    description: '';
     displayName: 'rowProject';
     pluralName: 'row-projects';
     singularName: 'row-project';

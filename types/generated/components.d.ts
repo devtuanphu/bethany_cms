@@ -11,6 +11,10 @@ export interface ShareProject extends Schema.Component {
     credits: Attribute.Text;
     description: Attribute.Text;
     groupMedia: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    groupMediaDetail: Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     isHeightSpecial: Attribute.Boolean & Attribute.DefaultTo<false>;
     position: Attribute.Integer;
     responsibilities: Attribute.Text;

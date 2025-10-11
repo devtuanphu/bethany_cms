@@ -4,7 +4,8 @@
   "info": {
     "singularName": "row-project",
     "pluralName": "row-projects",
-    "displayName": "rowProject"
+    "displayName": "rowProject",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

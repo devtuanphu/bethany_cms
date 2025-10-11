@@ -63,6 +63,17 @@
       "default": false
     },
     "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "groupMediaDetail": {
       "allowedTypes": [
         "images",
         "files",
@@ -70,7 +81,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }
